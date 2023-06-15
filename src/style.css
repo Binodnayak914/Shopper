@@ -1,0 +1,366 @@
+/* HEADER STYLESHEET =========================>*/
+header{
+    display:flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 5px;
+}
+.head{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head1 span{
+    font-size: 20px;
+    margin-right: 13px;
+   
+}
+.head1 span a{
+     text-decoration: none;
+     color: black;
+     cursor: grab;
+}
+.head11:hover a{
+    color:red;
+}
+.head2 span{
+    font-size: 18px;
+    margin-right: 8px;
+}
+/* BLACK DIVISION==================================> */
+.black{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+/* MAIN STYLESHEET ================================> */
+main{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    margin-top: 10px;
+}
+.men{
+    background-image: url("../public/photo/boy1.jpg");
+    background-size: cover;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kids{
+    background-image: url("../public/photo/child1.jpg");
+    background-size: cover;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.women{
+    background-image: url("../public/photo/women3.jpg");
+    background-size: cover;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size:60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+.chead{
+    margin-top: 200px;
+}
+.foot{
+    margin-top: 290px;
+}
+.bottom{
+    border: none;
+    padding: 10px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.women:hover, .men:hover, .kids:hover {
+    opacity: 0.8;
+}
+.bottom span{
+    margin-left: 0px;
+}
+.bottom:hover span{
+    margin-left: 15px;
+}
+/*  CART INFORMATION =================================> */
+.cart{
+    display:flex;
+    justify-content: space-between;
+    margin: 50px;
+    border-bottom: 1px solid grey;
+}
+.cart1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cart2{
+    list-style: none;
+    margin-top: -25px;
+    margin-left: 19px;
+}
+.cart3{
+    font-weight: bold;
+}
+.cart4{
+    color: grey;
+}
+/* COLLECTION STYLE ===================================>*/
+.collection{
+    
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
+    margin: 45px;
+    padding: 10px;
+}
+.collection1,.collection3,.collection4{
+    color: grey;
+}
+.collection2{
+    font-weight: bold;
+    font-size: 40px;
+}
+/*SHOWCASE1 STYLE =========================================>*/
+.showcase1{
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+}
+.showcase11{
+    background: url("../public/photo/boy5.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    height: 500px;
+    margin-right:0px;
+    margin: 10px;
+}
+.showcase11:hover{
+    margin-right: 20px;
+}
+.showcase111{
+    color: mediumspringgreen;
+    font-size: 45px;
+    font-weight: bold;
+}
+.showcase112{
+    color: mediumspringgreen;
+    font-size: 30px;
+}
+.showcase12{
+    background: url("../public/photo/boy3.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    margin-left: 0px;
+    margin: 10px;
+    position: relative;
+}
+.showcase12:hover{
+    margin-left:20px;
+}
+.showcase121{
+    color:lightcoral;
+    font-size: 45px;
+    font-weight: bold;
+}
+.showcase122{
+    color:lightcoral;
+    font-size: 30px;
+}
+.showcaseicon{
+    font-weight: bold;
+    color: aliceblue;
+    background-color: maroon;
+    border: 2px solid maroon;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 20px;
+    position:absolute;
+    top: 5px;
+    left: 5px;
+    transform:scale(0.8,0.8);
+    line-height: 15px;
+}
+.showcaseicon:hover{
+    transform:scale(1,1);
+}
+/* SHOWCASE2 STYLE ==========================================>*/
+.showcase2{
+     display: grid;
+    grid-template-columns: 7fr 5fr;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+}
+.showcase21{
+    background: url("../public/photo/lady5.jpeg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    height: 500px;
+    margin-right:0px;
+    margin: 10px;
+}
+.showcase21:hover{
+    margin-right: 20px;
+}
+.showcase211{
+    color: rgb(0, 183, 250);
+    font-size: 45px;
+    font-weight: bold;
+}
+.showcase212{
+    color: rgb(0, 183, 250);
+    font-size: 30px;
+}
+.showcase22{
+    background: url("../public/photo/lady4.jpeg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    margin-left: 0px;
+    margin: 10px;
+}
+.showcase22:hover{
+    margin-left:20px;
+}
+.showcase221{
+    color:rgb(250, 250, 114);
+    font-size: 45px;
+    font-weight: bold;
+}
+.showcase222{
+    color:rgb(250, 250, 114);
+    font-size: 30px;
+}
+/* SELLER STYLESHEET============================> */
+.seller{
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 75px;
+   line-height: 55px;
+}
+.seller1{
+    font-weight: bold;
+    font-size: 50px;
+}
+.seller3 span{
+    margin: 10px;
+}
+.seller4 a{
+    color: black;
+    text-decoration: none;
+}
+.seller4:hover a{
+    color: red;
+    text-decoration: underline;
+}
+/* CARD STYLESHEET ===============================================*/
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card{
+    margin:25px;
+    border: none;
+}
+.card-title p{
+    color: grey;
+}
+.card-text{
+    margin-top: -20px;
+    margin-bottom: 5px;
+}
+.card-subtitle{
+    color: grey;
+}
+/* CLOCK STYLESHEET =========================================*/
+.discover {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 70px;
+     margin-left: 625px;
+     margin-bottom: 70px;
+    border-bottom:2px solid ;
+    width: fit-content;
+}
+/* BUYERS STYLE SHEET========================================= */
+.buyers {
+    margin: 10px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* APPEAR STYLESHEET =====================*/
+.appear{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(249, 249, 249);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 10px;
+    padding:10px
+}
+.appear5{
+    margin:25px;
+}
+.appear4{
+    display: flex;
+}
+.appear1{
+    margin-bottom: 30px;
+}
+.appear2,.appear3{
+    margin-bottom: 50px;
+}
+/* FOOTER STYLESHEET =======================*/
+footer{
+    background-color:rgba(0, 0, 0, 0.805);
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footerhead1{
+    text-align: center;
+    padding: 80px;
+}
+.footerhead2{
+    text-align: center;
+    margin-top: -60px;
+}
+.footerbtn{
+    color: white;
+    background-color: rgb(128,128,128,.629);
+    border: none;
+}
+.footerbody{
+ display: grid;
+ grid-template-columns: 3fr 2.25fr 2.25fr 2.25fr 2.25fr;
+ font-size: small;
+ margin-top: 60px;
+ margin-left: 75px;
+ margin-right: 60px;
+}
+.footerdetails{
+    color: gainsboro;
+}
